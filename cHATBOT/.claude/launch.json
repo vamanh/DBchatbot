@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "RegBot Web UI",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "streamlit", "run", "app.py", "--server.port=8501", "--server.headless=true"],
+      "port": 8501
+    },
+    {
+      "name": "RegBot Chatbot",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["chatbot.py"],
+      "port": 8080
+    }
+  ]
+}
